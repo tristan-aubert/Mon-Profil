@@ -1,0 +1,98 @@
+body {
+ background-color:#2b2b2a; 
+ color:black;
+ font-family: playfair, serif;
+}
+
+
+h1{
+ color: rgb(130, 130, 130);
+ font-family: Bebas Neue, sans-serif ;
+ font-size: 60px;
+ font-weight: lighter;
+ line-height: 2;
+ letter-spacing: 2px;
+}
+
+h2{
+	color: #d4b170;
+	font-family: Josefin, sans-serif;
+	font-size: 37px;
+}
+
+p{
+	font-size: 20px;
+	line-height: 1,5;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: seagreen;
+	transition: color 0,5s ease;
+}
+a:hover{
+	color: limegreen;
+}
+
+
+/*Custom design with class*/
+
+.container {
+	width: 1000px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 30px 50px 0px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;	
+}
+
+.img-circle {
+	width: 80px;
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: seagreen;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;	
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 45px;
+}
+
+/* Design adjustement using id */
+#introduction p {
+	margin-bottom: 50px;
+}
